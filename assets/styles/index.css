@@ -1,6 +1,6 @@
 :root{
- --primary-color: rgb(193, 133, 55);
- --secondary-color: #3a3a2d;
+ --primary-color: rgb(193, 34, 34);
+ --secondary-color: #cb4d4d;
  --auxilliary-color: #fff;
  --padding-horizontal: 100px;
  --card-background: #FFEFF2;
@@ -126,3 +126,17 @@ nav>div>h1{
     padding-left: var(--padding-horizontal);
     padding-right: var(--padding-horizontal);
 }
+#contactsection{
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    height: 60vh;
+}
+#contactsection>form{
+    padding: 24px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;width: 60vw;
+}
+#copntactsection>form>div{
+    margin-top: 16px;
+}
+#contactsection
