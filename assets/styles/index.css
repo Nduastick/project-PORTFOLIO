@@ -1,6 +1,6 @@
 :root{
  --primary-color: rgb(193, 34, 34);
- --secondary-color: #cb4d4d;
+ --secondary-color: #e79292;
  --auxilliary-color: #fff;
  --padding-horizontal: 100px;
  --card-background: #FFEFF2;
@@ -21,6 +21,7 @@ nav{
 nav>div>a{
     color: #fff;
     text-decoration: none;
+    margin-right: 20px;
 }
 nav>div>h1{
     color: #fff;
@@ -133,10 +134,36 @@ nav>div>h1{
 }
 #contactsection>form{
     padding: 24px;
-    background-color: var(--secondary-color);
+    background-color: var(--card-background);
     border-radius: 30px;width: 60vw;
+    margin: auto;
 }
-#copntactsection>form>div{
+#contactsection>form>h1{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 41px;
+
+}
+#contactsection>form>div{
     margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-#contactsection
+#contactsection>form>div>label{
+    font-weight: 500;
+    margin-right: 20px;
+    color: var(--secondary-color);
+}
+#contactsection>form>div>input{
+    all: unset;
+    border-radius: 12px;
+    background-color: var(--auxilliary-color);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    color: #4C243B;
+    width: 52vw;
+    
+}
